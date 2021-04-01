@@ -1,6 +1,6 @@
 package com.luv2code.springdemo;
 
-public class BaseballCoach implements Coach{
+public class BaseballCoach implements Coach {
 
     // define a private field for the dependency
     private FortuneService fortuneService;
@@ -11,7 +11,7 @@ public class BaseballCoach implements Coach{
     }
 
     @Override
-    public String getDailyWorkout(){
+    public String getDailyWorkout() {
         return "spend 30minutes on batting practice";
     }
 
